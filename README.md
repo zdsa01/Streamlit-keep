@@ -1,6 +1,3 @@
-这是一份为您刚刚完成的 Streamlit 自动唤醒项目定制的 `README.md`。您可以直接将其复制并保存到项目根目录中。
-
-```markdown
 # 🚀 Streamlit App Auto-Waker (Streamlit 自动唤醒工具)
 
 Streamlit Community Cloud 部署的应用在一段时间无访问后会自动进入休眠状态。本项目利用 Python + Selenium 模拟真实用户访问，自动点击唤醒按钮，并结合 GitHub Actions 实现定时无人值守运行。同时集成 Telegram 机器人，实时推送唤醒结果。
@@ -134,8 +131,3 @@ python keep/streamlit-keep.py
 
 MIT License
 
-```
-
-这个 `README.md` 包含了项目的背景、功能、目录结构、所需的参数配置，以及 GitHub Actions 的完整配置指南，完全贴合你刚才完善的代码逻辑。您可以直接创建一个 `README.md` 文件并将这些内容粘贴进去。
-
-```
