@@ -21,14 +21,13 @@ Streamlit Community Cloud 部署的应用在一段时间无访问后会自动进
 ├── .github/
 │   └── workflows/
 │       └── wakeup.yml          # GitHub Actions 工作流配置文件
-├── keep/
-│   ├── streamlit-keep.py       # 核心唤醒脚本
-│   └── requirements.txt        # Python 依赖包清单
+├── streamlit-keep.py       # 核心唤醒脚本
+├──  requirements.txt        # Python 依赖包清单
 └── README.md
 
 ```
 
-*(注：`keep/requirements.txt` 中需包含 `selenium` 和 `requests`)*
+*(注：`requirements.txt` 中需包含 `selenium` 和 `requests`)*
 
 ---
 
@@ -100,7 +99,7 @@ export TELEGRAM_CHAT_ID="你的_CHAT_ID"
 *(Windows 用户请使用 `set` 或 `$env:` 命令)*
 4. **运行脚本**:
 ```bash
-python keep/streamlit-keep.py
+python streamlit-keep.py
 
 ```
 
