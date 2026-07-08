@@ -2,8 +2,6 @@ name: Streamlit 自动唤醒
 
 on:
   workflow_dispatch:
-  repository_dispatch:
-    types: [service-down-alert]
   schedule:
     - cron: '0 */6 * * *' # 整点每6小时运行一次（0点、6点、12点、18点）
 
