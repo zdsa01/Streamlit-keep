@@ -46,4 +46,4 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }} # 新增：Telegram Bot Token
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}     # 新增：接收通知的 Chat ID
         run: |
-          python keep/streamlit-keep.py
+          python streamlit-keep.py
