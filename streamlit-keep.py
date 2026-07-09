@@ -197,11 +197,11 @@ class StreamlitAppWaker:
 
         # 无论是否点到，如果页面已经是运行状态，直接返回成功
         if not clicked:
-            logger.info("🧐 未找到唤醒按钮，正在检查应用是否已在线...")
+            logger.info("🧐未找到唤醒按钮，正在检查应用是否已在线...")
             if self.check_app_status():
-                return True, "应用已是唤醒状态，无需操作"
+                return True, "🚀 应用已是唤醒状态，无需操作"
             else:
-                raise Exception("无法找到唤醒入口，且应用仍处于冷启动/睡眠状态")
+                raise Exception("🚨无法找到唤醒入口，且应用仍处于冷启动/睡眠状态")
 
         # 结果确认：刷新并深度验证
         logger.info(f"🩺 正在刷新页面进行最终验证...")
